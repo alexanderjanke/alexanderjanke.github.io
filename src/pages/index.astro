@@ -1,0 +1,14 @@
+---
+import Card from '../components/Card.astro';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="All recipes">
+  <div>
+    <ul class="mt-4 gap-2 grid grid-cols-4">
+      <Card title="Pancakes" body="A simple recipe for pancakes" href="/recipes/pancakes" />
+      <Card title="Pizza" body="A simple recipe for pizza" href="/recipes/pizza" />
+      <Card title="Pasta" body="A simple recipe for pasta" href="/recipes/pasta" />
+    </ul>
+  </div>
+</Layout>
